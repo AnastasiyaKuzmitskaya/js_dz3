@@ -13,3 +13,13 @@ function getSum(n){
 
 console.log(getSum(100));
 
+
+/ Task 2
+function sumCredit(sc){
+    const persent = 0.17;
+    const year = 5;
+    return Math.round((sc*persent*year));
+}
+console.log(sumCredit(2000))
+
+
