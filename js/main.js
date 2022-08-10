@@ -66,3 +66,45 @@ function getSum(a,b) {
     }
     console.log(getSum(5,6))
     
+
+
+  // Task 6
+
+//1 способ
+  
+function foo() {
+    console.log('foo');
+}  
+function boo() {
+    console.log('boo');
+}  
+function fooBoo(isTrue, funcOne, funcTwo) {
+    if(isTrue){
+        funcOne();
+
+    }
+    else{
+        funcTwo();
+    }
+}  
+fooBoo(true,foo, boo)
+
+
+//2 способ
+
+/* function foo() {
+    console.log('foo');
+}  
+function boo() {
+    console.log('boo');
+}  
+function fooBoo(isTrue, funcOne, funcTwo) {
+    if(isTrue === 'true'){
+        return foo();
+
+    }
+    else{
+        return boo();;
+    }
+}  
+console.log(fooBoo('false')); */
