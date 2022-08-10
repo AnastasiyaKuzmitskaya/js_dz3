@@ -14,7 +14,7 @@ function getSum(n){
 console.log(getSum(100));
 
 
-/ Task 2
+// Task 2
 function sumCredit(sc){
     const persent = 0.17;
     const year = 5;
@@ -22,4 +22,12 @@ function sumCredit(sc){
 }
 console.log(sumCredit(2000))
 
+
+
+// Task 3
+function  trimString(str, valueFrom, valueBy){
+    return str.slice(valueFrom, valueBy);
+}
+
+console.log(trimString('Обучение языку программирования JavaScript', 5,-10))
 
