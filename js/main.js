@@ -44,3 +44,25 @@ function getSumNumbers(num) {
   }
   
   console.log( getSumNumbers(2021));
+
+
+
+   
+  // Task 5
+
+function getSum(a,b) {  
+    let sumAB = 0;
+    
+    if(typeof(a) !== 'number' || typeof(b) !== 'number') return console.log("ЭТо не является числом");
+    
+    
+    if (a === b)  return console.log(`Numbers are equal. Sum is ${a}`);
+    
+    for (let i=a; i<= b; i++ ){
+        sumAB += i;
+    }
+    
+    console.log(sumAB);
+    }
+    console.log(getSum(5,6))
+    
