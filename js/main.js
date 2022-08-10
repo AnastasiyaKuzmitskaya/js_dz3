@@ -31,3 +31,16 @@ function  trimString(str, valueFrom, valueBy){
 
 console.log(trimString('Обучение языку программирования JavaScript', 5,-10))
 
+
+
+// Task 4
+
+function getSumNumbers(num) {      
+    let sum = 0;
+    for( let digit of `${num}` ){ // прямо тут, сразу превращая n в строку
+      sum += +digit;
+    }      
+    return sum;
+  }
+  
+  console.log( getSumNumbers(2021));
